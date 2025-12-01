@@ -1,7 +1,7 @@
 def create_codon_dict(file_path):
     split_acids={}
-    with open(flie_path) as codons_file:
-         file=open(file_path).readlines()
+    path=open(flie_path) as codons_file:
+         file=path.readlines()
          path.close()
          for row in rows:
              row.strip()
