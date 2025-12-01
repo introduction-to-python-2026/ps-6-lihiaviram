@@ -7,7 +7,7 @@ def create_codon_dict(file_path):
               codon=row[0]
               amino=row[2]
               split_acids[codon]=amino 
-    return split_acids
+       return split_acids
         
 
      
