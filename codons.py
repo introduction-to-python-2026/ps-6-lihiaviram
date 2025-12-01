@@ -1,6 +1,6 @@
 def create_codon_dict(file_path):
-    split_acids={}
      with open(file_path,'r') as codons_file:
+           split_acids={}
            for row in codons_file.readlines():
                row=row.strip().split('\t')
                 codon=row[0]
