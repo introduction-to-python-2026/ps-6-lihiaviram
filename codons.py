@@ -4,8 +4,7 @@ def create_codon_dict(file_path):
            for row in codons_file.readlines():
                row.strip().split('\t')
                split_acids={row[0]:row[2]}
-        codons_file.close()
-         return split_acids
+    return split_acids
         
 
      
